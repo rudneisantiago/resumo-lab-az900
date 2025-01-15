@@ -1,7 +1,6 @@
 # Resumo AZ900
 Resumo das lições aprendidas durante o desenvolvimento do lab na DIO
 
-
 # Computação em Nuvem: Domínio do objetivo
 
 A computação em nuvem é o fornecimento de serviços de computação pela Internet, facilitando inovações mais rápidas, recursos flexíveis e economias de escala.
@@ -76,3 +75,56 @@ A computação em nuvem é o fornecimento de serviços de computação pela Inte
 - Fornecidos preços para recursos/serviços individualmente
 - Painel para acompanhar custos
 - Travas para custos
+
+Benefícios da Nuvem Azure
+
+# Benefícios da nuvem: domínio de objetivo
+
+## Alta disponibilidade, independente de interrupções ou eventos
+
+- Acordo de nível de serviço - SLA - % de disponibilidade alto
+- Possibilidade de créditos em caso de não cumprimento do SLA contratado
+
+## Escalabilidade
+
+- Capacidade de ajustar recursos a demanda
+- Possível adicionar recursos para lidar com aumento de demanda
+- Paga apenas pelo necessário e não além
+- Em nuvem, paga-se apenas pelo que usa
+- Se demanda cai, é possível reduzir os recursos
+- Escala vertical possibilita adicionar mais CPU e RAM à máquina virtual
+
+## Elasticidade
+
+- Possível expandir os recursos num aumento acentuado (automaticamente ou manualmente)
+- Possível configurar expansão de máquinas e contêineres automaticamente. Ex: Chegando a 75%, aumenta 1 máquina. Diminuindo a demanda, reduz 1 máquina, até um limite de N máquinas.
+- Ao adotarmos a nuvem pública podemos adaptar nossos sistemas para que os mesmos atendam as requisições externas com agilidade e rapidez
+
+## Confiabilidade
+
+- Infraestrutura confiável e resiliente
+- Permite que os recursos estejam implantados em várias regiões do mundo
+- Ocorrendo problemas em uma região, é possível utilizar a infra de outro local
+
+## Previsibilidade
+
+- Confiança para avançar, seja no desempenho ou custo, de forma previsível
+
+## Segurança
+
+- Nuvem oferece ferramentas de segurança avançadas, porém necessita implementação do cliente
+- Infraestrutura como serviço oferece recursos físicos, mas permite gerenciamento dos sistemas instalados, incluindo atualizações. Porém cabe ao cliente fazer as atualizações
+- Para aplicação de atualizações automáticas, plataforma como serviço / software é uma estratégia melhor. O cliente escolhe a plataforma e recebe as últimas versões
+
+## Governança
+
+- Auditoria em nuvem ajuda a sinalizar recursos fora de conformidade com os padrões
+- Dependendo do modelo, atualizações podem ser aplicadas automaticamente, ajudando na governança e segurança
+- Governança quando gerada cedo, mantém a presença da nuvem atualizada, segura e confiável
+
+## Gerenciabilidade
+
+- Opções de capacidade de gerenciamento (linha de comando, script, portal)
+- Gerenciar nuvem
+  - Escalar automaticamente implantação de recursos
+  - Implantar recursos com base em modelo pré-configurado
