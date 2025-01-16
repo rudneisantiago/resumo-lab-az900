@@ -128,3 +128,32 @@ Benefícios da Nuvem Azure
 - Gerenciar nuvem
   - Escalar automaticamente implantação de recursos
   - Implantar recursos com base em modelo pré-configurado
+
+Tipos de Serviço de Nuvem
+
+# Tipos de serviço de nuvem: domínio do objetivo
+
+## IaaS - Infraestrutura como serviço
+
+- Servidores de armazenamento, máquinas virtuais
+- Firewalls/segurança
+- Planta física
+- Exige mais configuração, porém é mais flexível
+- Permite maior domínio da infraestrutura, maior personalização, maior liberdade
+
+## PaaS - Plataforma como serviço
+
+- Focado no desenvolvimento de aplicativos
+- Ferramentas de dev
+- Análise de negócios
+- Gerenciamento de banco de dados
+- Sistemas operacionais
+- Ambiente para criação, teste e implantação de aplicativos de software
+- Não foca no gerenciamento da infra
+
+## SaaS - Software como serviço
+
+- Aplicativos / Apps hospedados
+- Ex: Office 365, Teams
+- Usuário se conecta pela internet
+- Não cuidamos das configurações de arquitetura, apenas de uso do software
