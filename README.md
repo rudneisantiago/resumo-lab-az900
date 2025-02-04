@@ -1,4 +1,5 @@
-# Resumo AZ900
+# Resumo AZ-900
+
 Resumo das lições aprendidas durante o desenvolvimento do lab na DIO
 
 # Computação em Nuvem: Domínio do objetivo
@@ -157,3 +158,81 @@ Tipos de Serviço de Nuvem
 - Ex: Office 365, Teams
 - Usuário se conecta pela internet
 - Não cuidamos das configurações de arquitetura, apenas de uso do software
+
+Componentes de arquitetura do Azure
+
+# Principais componentes arquitetônicos do Azure
+
+## Regiões
+
+- Regiões disponíveis
+- Regiões anunciadas
+- Zonas de disponibilidades
+- mais de 60 regiões em mais de 140 países
+- Compostas por um ou mais datacenters próximos
+- Fornecem flexibilidade e escala para reduzir latência
+- Preservam a residência dos dados
+
+## Zonas de Disponibilidade
+
+- Fornece proteção contra tempo de inatividade devido a falha do datacenter
+- Separa fisicamente os datacenters dentro da mesma região
+- Cada datacenter tem alimentação, resfriamento e rede independentes
+- Conectados por meio de redes privadas
+
+## Pares de regiões
+
+- Mínimo 300 milhas de separação
+- Réplica automática de alguns serviços
+- Recuperação de região priorizada em caso de interrupção
+- Atualizações distribuídas sequencialmente
+
+## Regiões soberanas do Azure
+
+- Serviços governamentais americanos
+  - Atende necessidades de segurança de agências federais americanas, governos estaduais e locais
+- Azure Governamental
+  - instância separada do Azure
+  - Fisicamente isolada de implantações que não sejam do governo americano
+  - Acessível somente a pessoal autorizado
+- Azure China
+  - Microsoft foi o primeiro a prover cloud para a China, seguindo as regulamentações chinesas
+  - Fisicamente separada de outras instâncias da Azure, operada pela 21Vianet
+  - Todo dado fica dentro da China
+
+# Recursos do Azure
+
+São componentes como armazenamento, máquinas virtuais e redes que estão disponíveis para criar soluções de nuvem.
+
+- Máquinas virtuais
+- Contas de armazenamento
+- Redes virtuais
+- Serviços de aplicativos
+- Bancos de dados SQL
+- Funções
+
+## Grupo de recursos
+
+- Agrupamento de recursos
+- Contêiner que você usa para gerenciar e agregar recursos em única unidade
+- Não é possível renomear um grupo de recursos
+- Recursos podem existir em apenas um grupo (não pode estar em dois, por exemplo)
+- Recursos podem existir em diferentes regiões
+- Recursos podem ser movidos para diferentes grupos
+- Aplicativos podem utilizar vários grupos
+
+# Assinaturas do Azure
+
+## Contas do Azure
+
+- Assinatura do desenvolvimento
+- Assinatura do teste
+- Assinatura da produção
+- Conta > assinatura: 1 > N
+- Faturas individuais para cada assinatura
+  - Facilita na gerência de gastos de, por exemplo, cada projeto
+
+Grupos de Gerenciamento
+
+- Podem incluir várias assinaturas
+- Herdam as condições aplicadas ao grupo
